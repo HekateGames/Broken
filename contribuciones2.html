@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<!--
+	Resto by GetTemplates.co
+	URL: https://gettemplates.co
+-->
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Resto - Restaurant Bootstrap 4 Template by GetTemplates.co</title>
+    <meta name="description" content="Resto">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/select2/select2.min.css">
+    <link rel="stylesheet" href="vendor/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/css/tempusdominus-bootstrap-4.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/brands.css">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Josefin+Sans:300,400,700">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.min.css">
+
+    <!-- Modernizr JS for IE8 support of HTML5 elements and media queries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+
+    <style>
+        .accordion {
+          background-color: rgb(143, 79, 79);
+          color: rgb(0, 0, 0);
+          cursor: pointer;
+          padding: 18px;
+          width: 100%;
+          border: none;
+          text-align: left;
+          outline: none;
+          font-size: 15px;
+          transition: 0.4s;
+        }
+        
+        .active, .accordion:hover {
+          background-color: rgb(119, 49, 49); 
+        }
+        
+        .panel {
+          padding: 0 18px;
+          display: none;
+          background-color: rgb(0, 0, 0);
+          overflow: hidden;
+        }
+        </style>
+
+</head>
+<body data-spy="scroll" data-target="#navbar">
+	<div id="side-nav" class="sidenav">
+	<a href="javascript:void(0)" id="side-nav-close">&times;</a>
+	
+	<div class="sidenav-content">
+		<p>
+			Kuncen WB1, Wirobrajan 10010, DIY
+		</p>
+		<p>
+			<span class="fs-16 primary-color">(+68) 120034509</span>
+		</p>
+		<p>info@yourdomain.com</p>
+	</div>
+</div>	<div id="side-search" class="sidenav">
+	<a href="javascript:void(0)" id="side-search-close">&times;</a>
+	<div class="sidenav-content">
+		<form action="">
+
+			<div class="input-group md-form form-sm form-2 pl-0">
+			  <input class="form-control my-0 py-1 red-border" type="text" placeholder="Search" aria-label="Search">
+			  <div class="input-group-append">
+			    <button class="input-group-text red lighten-3" id="basic-text1">
+			    	<i class="fas fa-search text-grey" aria-hidden="true"></i>
+			    </button>
+			  </div>
+			</div>
+
+		</form>
+	</div>
+	
+ 	
+</div>	<div id="canvas-overlay"></div>
+	<div class="boxed-page">
+		<nav id="navbar-header" class="navbar navbar-expand-lg">
+    <div class="container">
+        <a class="navbar-brand navbar-brand-center d-flex align-items-center p-0 only-mobile" href="/">
+            <img src="img/logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="lnr lnr-contribuciones"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+            <ul class="navbar-nav d-flex justify-content-between">
+                <li class="nav-item only-desktop">
+                    <a class="nav-link" id="side-nav-open" href="#">
+                        <span class="lnr lnr-contribuciones"></span>
+                    </a>
+                </li>
+                <div class="d-flex flex-lg-row flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="intro.html">Introducción</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="personajes.html">Personajes</a>
+                    </li>
+                </div>
+            </ul>
+            
+            <a class="navbar-brand navbar-brand-center d-flex align-items-center only-desktop" href="#">
+                <img src="img/logo.png" alt="">
+            </a>
+            <ul class="navbar-nav d-flex justify-content-between">
+                <div class="d-flex flex-lg-row flex-column">
+                    
+                    <li class="nav-item ">
+                        <a class="nav-link" href="contribuciones2.html">Contribuciones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="team.html">Equipo</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="comprar.html">Comprar</a>
+                    </li>
+                </div>
+                <li class="nav-item">
+                    <a id="side-search-open" class="nav-link" href="#">
+                        <span class="lnr lnr-magnifier"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>		<!-- Contribuciones Section -->
+<section id="gtco-contribuciones" class="section-padding">
+    <div class="container">
+        <div class="section-content">
+            <div class="row mb-5">
+                <div class="col-md-12">
+                    <div class="heading-section text-center">
+                        <span class="subheading">
+                            Precios
+                        </span>
+                        <h2>
+                            Contribuciones 
+                        </h2>
+                    </div>  
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 contribuciones-wrap">
+                    <div class="heading-contribuciones">
+                        <h3 class="text-center mb-5">BAJO</h3>
+                    </div>
+                    <div class="contribucioness d-flex align-items-center">
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4> "Empezando" </h4>
+                                </div>
+                                <div class="col-4">
+                                    <h3 class="text-muted contribuciones-price">1€</h3>
+                                </div>
+                            </div>
+                            <p>Incluye: Fondo de pantalla básico </p>
+                        </div>
+                    </div>
+                    <div class="contribucioness d-flex align-items-center">
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4> "Entrando en movimiento"</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted contribuciones-price">2€</h4>
+                                </div>
+                            </div>
+                            <p>Incluye: Fondo de pantalla básico, fondo de pantalla animado. </p>
+                        </div>
+                    </div>
+                    <div class="contribucioness d-flex align-items-center">
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4> "Decorando" </h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted contribuciones-price">8€</h4>
+                                </div>
+                            </div>
+                            <p>Incluye: Fondo de pantalla básico, fondo de pantalla animado y póster. </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 contribuciones-wrap">
+                    <div class="heading-contribuciones">
+                        <h3 class="text-center mb-5">MEDIO</h3>
+                    </div>
+                    <div class="contribucioness d-flex align-items-center">
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4> "Empezando a jugar" </h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted contribuciones-price"> 10€</h4>
+                                </div>
+                            </div>
+                            <p>Incluye: Fondo de pantalla básico, fondo de pantalla animado, póster y demo del juego</p>
+                        </div>
+                    </div>
+                    <div class="contribucioness d-flex align-items-center">
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4> "Jugar de Verdad" </h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted contribuciones-price">20€</h4>
+                                </div>
+                            </div>
+                            <p>Incluye: Fondo de pantalla básico, fondo de pantalla animado, póster y acceso anticipado al juego</p>
+                        </div>
+                    </div>
+                    <div class="contribucioness d-flex align-items-center">
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4> "Acceso Alpha" </h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted contribuciones-price">35€</h4>
+                                </div>
+                            </div>
+                            <p> Incluye: Fondo de pantalla básico, fondo de pantalla animado, póster, acceso anticipado al juego con acceso Alpha y acceso a discord. </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 contribuciones-wrap">
+                    <div class="heading-contribuciones">
+                        <h3 class="text-center mb-5"> ALTO </h3>
+                    </div>
+                    <div class="contribucioness d-flex align-items-center">
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4> "Friqueando" </h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted contribuciones-price">100€</h4>
+                                </div>
+                            </div>
+                            <p> Incluye: Fondo de pantalla básico, fondo de pantalla animado, póster, acceso anticipado al juego con acceso Alpha, acceso a discord, soundtrack, música exclusiva, imágenes exclusivas y videos exclusivos.  </p>
+                        </div>
+                    </div>
+                    <div class="contribucioness d-flex align-items-center">
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4> "Colaboración" </h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted contribuciones-price">150€</h4>
+                                </div>
+                            </div>
+                            <p> Incluye: Fondo de pantalla básico, fondo de pantalla animado, póster, acceso anticipado al juego con acceso Alpha, acceso a discord, soundtrack, música exclusiva, imágenes exclusivas, videos exclusivos y colaboración.  </p>
+                        </div>
+                    </div>
+                    <div class="contribucioness d-flex align-items-center">
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4> "Compartir es vivir" </h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted contribuciones-price">200€</h4>
+                                </div>
+                            </div>
+                            <p> Incluye: Fondo de pantalla básico x2, fondo de pantalla animado x2, póster x2, acceso anticipado al juego con acceso Alpha x2, acceso a discord x2, soundtrack x2, música exclusiva x2, imágenes exclusivas x2, videos exclusivos x2 y colaboración x2.  </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="inner container">
+        <div class="row">
+            <img class="img-fluid img-cover" src="img/Objetivos.png" />
+        </div>
+    </div>
+
+</section>
+
+
+	
+</div>
+	<!-- External JS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+	<script src="vendor/bootstrap/popper.min.js"></script>
+	<script src="vendor/bootstrap/bootstrap.min.js"></script>
+	<script src="vendor/select2/select2.min.js "></script>
+	<script src="vendor/owlcarousel/owl.carousel.min.js"></script>
+	<script src="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js"></script>
+	<script src="vendor/stellar/jquery.stellar.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/js/tempusdominus-bootstrap-4.min.js"></script>
+
+	<!-- Main JS -->
+	<script src="js/app.min.js "></script>
+
+   
+    <h2>Preguntas Frecuentes</h2>
+
+    <button class="accordion">¿Para qué sirve esta página web?</button>
+    <div class="panel">
+      <p> Sirve para promocionar un videojuego y para poder obtener distintos productos de el.</p>
+    </div>
+    
+    <button class="accordion"> ¿Una vez adquirido el juego que debo hacer? </button>
+    <div class="panel">
+      <p> Una vez comprado el juego se le proporcionará una carpeta .zip en la cual viene el juego a descargar y un archivo .txt con los pasos a seguir.</p>
+    </div>
+    
+    <button class="accordion"> ¿Puedo obtener algún producto sin necesidad de pagar? </button>
+    <div class="panel">
+      <p>No se puede</p>
+    </div>
+
+    <button class="accordion"> ¿Cuándo recibiré mis productos? </button>
+    <div class="panel">
+      <p>Las recompensas que se obtengan de forma online (juego, música, imágenes) serán dadas al instante mientras que aquellas que se entreguen a domicilio tendrán un periodo de entre 1 a 2 semanas.</p>
+    </div>
+
+    <button class="accordion"> ¿Qué métodos de pago aceptan? </button>
+    <div class="panel">
+      <p>Aceptamos todo tipos de pagos con tarjetas de crédito</p>
+    </div>
+
+    <button class="accordion"> ¿Puedo devolver mis productos? </button>
+    <div class="panel">
+      <p>Una vez realizada la compra no se podrán devolver los productos a no ser que tengan algún tipo de defecto.</p>
+    </div>
+    
+    <button class="accordion">¿Si quiero un producto, pero viene en un pack con lo que ya compré previamente debo pagar la cantidad de todo? </button>
+    <div class="panel">
+      <p>No, una vez vayas comprando productos se te guardará un historial y si quieres comprar más cosas se te restará lo que gastaste previamente.</p>
+    </div>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+        </script>
+
+<!-- End of contribuciones Section -->		<footer class="mastfoot pb-5 bg-black section-padding pb-0"style="background-color: black;">
+    <div class="inner container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="footer-widget pr-lg-5 pr-0">
+                    <br>
+                    <img src="img/logo.png" class="img-fluid footer-logo mb-3" alt="">
+                    <p> ATENCIÓN: Esta página simula la campaña de microfinanciación de un videojuego ficticio y no representa un producto real. Práctica de Multimedia, 1º GDDV - Cuerso 21/22 (Móstoles), URJC. La URJC no se hace responsable del contenido expuesto por el autor</p>
+                    <nav class="nav nav-mastfoot justify-content-start">
+                      <a class="nav-link" href="https://www.youtube.com/channel/UCECpdM_m-szKD_biBL8UyTw">
+                           <i class="fab fa-youtube"></i>
+                       </a>
+                       <a class="nav-link" href="https://twitter.com/HekateGames">
+                           <i class="fab fa-twitter"></i>
+                       </a>
+                       <a class="nav-link" href="https://www.instagram.com/hekategames_official/">
+                           <i class="fab fa-instagram"></i>
+
+                       </a>
+                   </nav>
+                </div>
+                
+            </div>
+            <div class="col-lg-4">
+                <div class="footer-widget pl-lg-5 pl-0">
+                    <br>
+                    <h4>Comunicate con nosotros:</h4>
+                    <p>Abajo podras enviarnos un mensaje plasmandonos cualquier problema, sugerencia etc,     Un Saludo (HekateGames) </p>
+                    <form id="newsletter">
+                       <div class="form-group">
+                           <input type="email" class="form-control" id="emailNewsletter" aria-describedby="emailNewsletter" placeholder="Comunicado">
+                       </div>
+                       <button type="submit" class="btn btn-primary w-100">Enviar</button>
+                       <br><br><br>
+                   </form>
+                </div>
+            </div>
+            <div class="col-md-12 d-flex align-items-center">
+                <p class="mx-auto text-center mb-0">Copyright 2022. Modificado por HekateGames. All Right Reserved. Design by <a href="https://gettemplates.co" target="_blank">GetTemplates</a></p>
+            </div>
+           
+       </div>
+   </div>
+</body>
+</html>

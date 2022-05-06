@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<!--
+	Resto by GetTemplates.co
+	URL: https://gettemplates.co
+-->
+<html lang="es">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Resto - Restaurant Bootstrap 4 Template by GetTemplates.co</title>
+    <meta name="description" content="Resto">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/select2/select2.min.css">
+    <link rel="stylesheet" href="vendor/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/css/tempusdominus-bootstrap-4.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/brands.css">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Josefin+Sans:300,400,700">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.min.css">
+
+    <!-- Modernizr JS for IE8 support of HTML5 elements and media queries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+
+    <style>
+        .accordion {
+          background-color: rgb(143, 79, 79);
+          color: rgb(0, 0, 0);
+          cursor: pointer;
+          padding: 18px;
+          width: 100%;
+          border: none;
+          text-align: left;
+          outline: none;
+          font-size: 15px;
+          transition: 0.4s;
+        }
+        
+        .active, .accordion:hover {
+          background-color: rgb(119, 49, 49); 
+        }
+        
+        .panel {
+          padding: 0 18px;
+          display: none;
+          background-color: rgb(0, 0, 0);
+          overflow: hidden;
+        }
+        </style>
+
+    <style>
+        /*
+          Rollover Image
+        */
+        .figure {
+            position: relative;
+            width: 360px; /* can be omitted for a regular non-lazy image */
+            max-width: 100%;
+        }
+        .figure img.image-hover {
+            position: absolute;
+          top: 0;
+          right: 0;
+          left: 0;
+          bottom: 0;
+          object-fit: contain;
+          opacity: 0;
+          transition: opacity .2s;
+        }
+        .figure:hover img.image-hover {
+          opacity: 1;
+        }
+        </style>
+
+    
+
+</head>
+<body data-spy="scroll" data-target="#navbar">
+	<div id="side-nav" class="sidenav">
+	<a href="javascript:void(0)" id="side-nav-close">&times;</a>
+	
+	<div class="sidenav-content">
+		<p>
+			Kuncen WB1, Wirobrajan 10010, DIY
+		</p>
+		<p>
+			<span class="fs-16 primary-color">(+68) 120034509</span>
+		</p>
+		<p>info@yourdomain.com</p>
+	</div>
+</div>	<div id="side-search" class="sidenav">
+	<a href="javascript:void(0)" id="side-search-close">&times;</a>
+	<div class="sidenav-content">
+		<form action="">
+
+			<div class="input-group md-form form-sm form-2 pl-0">
+			  <input class="form-control my-0 py-1 red-border" type="text" placeholder="Search" aria-label="Search">
+			  <div class="input-group-append">
+			    <button class="input-group-text red lighten-3" id="basic-text1">
+			    	<i class="fas fa-search text-grey" aria-hidden="true"></i>
+			    </button>
+			  </div>
+			</div>
+
+		</form>
+	</div>
+	
+ 	
+</div>	<div id="canvas-overlay"></div>
+	<div class="boxed-page">
+		<nav id="navbar-header" class="navbar navbar-expand-lg">
+    <div class="container">
+        <a class="navbar-brand navbar-brand-center d-flex align-items-center p-0 only-mobile" href="/">
+            <img src="img/logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="lnr lnr-menu"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+            <ul class="navbar-nav d-flex justify-content-between">
+                <li class="nav-item only-desktop">
+                    <a class="nav-link" id="side-nav-open" href="#">
+                        <span class="lnr lnr-menu"></span>
+                    </a>
+                </li>
+                <div class="d-flex flex-lg-row flex-column">
+                    <li class="nav-item active">
+                       
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="intro.html">Introducción</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="personajes.html">Personajes</a>
+                    </li>
+                </div>
+            </ul>
+            
+            <a class="navbar-brand navbar-brand-center d-flex align-items-center only-desktop" href="#">
+                <img src="img/logo.png" alt="">
+            </a>
+            <ul class="navbar-nav d-flex justify-content-between">
+                <div class="d-flex flex-lg-row flex-column">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="contribuciones2.html">Contribuciones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="team.html">Equipo</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="comprar.html">Comprar</a>
+                    </li>
+                </div>
+                <li class="nav-item">
+                    <a id="side-search-open" class="nav-link" href="#">
+                        <span class="lnr lnr-magnifier"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>		<!-- Special Dishes Section -->
+<section id="gtco-special-dishes" class="bg-black section-padding">
+    <div class="container">
+        <div class="section-content">
+            <div class="heading-section text-center">
+                <span class="subheading">
+                    Broken
+                </span>
+                <h2>
+                    Personajes
+                </h2>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-5 col-md-6 align-self-center py-5">
+                    <h2 class="special-number">01.</h2>
+                    <div class="dishes-text">
+                        <h3><span>Chloe</span><br>  Protagonista</h3>
+                        <p class="pt-3">Una chica que sufrió varios abusos por parte de su madre, su exnovio, su mejor amiga y gente del instituto.  Tras no encontrar ayuda en profesionales como el psicólogo de la escuela o ser abandonada por su mejor amiga decide terminar con su vida. Al no ser capaz de pasar al más allá decide que su objetivo es el de vengarse de cada uno de los que le hizo sufrir cuando aún estaba viva para saldar sus cuentas pendientes.</p>
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-lg-2 col-md-6 align-self-center mt-4 mt-md-0">
+                    <script src="https://scripts.sirv.com/sirvjs/v3/sirv.js"></script>
+                        <div class="figure">
+                          <img class="Sirv image-main" alt="" src="img/chloe_good.jpeg?w=10&colorize.color=efefef" data-src="img/chloe_good.jpeg">
+                          <img class="Sirv image-hover" alt="" data-src="img/chloe_bad.jpeg">
+                        </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-5 col-md-6 align-self-center order-2 order-md-1 mt-4 mt-md-0">
+                    <img src="img/tom.jpeg" alt="" class="img-fluid shadow w-100">
+                </div>
+                <div class="col-lg-5 offset-lg-2 col-md-6 align-self-center order-1 order-md-2 py-5">
+                    <h2 class="special-number">02.</h2>
+                    <div class="dishes-text">
+                        <h3><span>Tom</span><br> El Padre</h3>
+                        <p class="pt-3">Un día cenando en familia a Tom le empezó a doler la cabeza lo que finalmente le llevó a un desmayo. Le llevaron al hospital y al día siguiente se enteraron que le había dado un ictus. Por desgracia era tan potente que no podría moverse de la camilla porque corría riesgo de volver a sufrir otro, asique decidieron acabar con su sufrimiento. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-5 col-md-6 align-self-center py-5">
+                    <h2 class="special-number">03.</h2>
+                    <div class="dishes-text">
+                        <h3><span>Rose</span><br> La Madre </h3>
+                        <p class="pt-3"> 
+
+                            Rose notaba tato la ausencia de su amado que no encontró otra forma para superarlo que meterse en el mundo de las drogas y el alcohol, lo que implicó que descuidase el cuidado de su hija. Hasta tal punto que incluso la maltrataba. </p>
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-lg-2 col-md-6 align-self-center mt-4 mt-md-0">
+                    <img src="img/rose.jpeg" alt="" class="img-fluid shadow w-100">
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-5 col-md-6 align-self-center order-2 order-md-1 mt-4 mt-md-0">
+                    <img src="img/nora.jpeg" alt="" class="img-fluid shadow w-100">
+                </div>
+                <div class="col-lg-5 offset-lg-2 col-md-6 align-self-center order-1 order-md-2 py-5">
+                    <h2 class="special-number">04.</h2>
+                    <div class="dishes-text">
+                        <h3><span>Nora</span><br> La Mejor Amiga</h3>
+                        <p class="pt-3">La mejor amiga de Chloe, vivían en el mismo barrio y eran amigas de toda la vida. Se pusieron de acuerdo para ir al mismo instituto, pero en cuanto entraron poco a poco su relación se fue deteriorando, ya que Nora hizo amigas aparte. Pero la gota que colmó el vaso fue la traición de Nora. Poco tiempo después de que lo dejarán Mark y Chloe, Nora comenzó a salir con Mark sin importarle los sentimientos de Chloe, sabiendo por todo lo que estaba pasando ella y dándole igual que Mark estuviera participando en todo el acoso hacia Chloe. Tiempo después rompieron, pero Nora y Chloe no se volvieron a hablar. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-5 col-md-6 align-self-center py-5">
+                    <h2 class="special-number">05.</h2>
+                    <div class="dishes-text">
+                        <h3><span>Mark</span><br>  El Exnovio </h3>
+                        <p class="pt-3">El primer amor de Chloe. Estuvieron saliendo por 6 meses en los que él parecía el novio ideal, pero poco a poco él se fue haciendo más popular y le comenzó a importar más su reputación que su amor por Chloe, asique finalmente decidió dejarla porque le daba vergüenza que los relacionarán. Se convirtió en capitán del equipo de futbol y para poder encajar mejor se unió a hacerle la vida imposible a Chloe, llegando a expandir en el instituto la noticia de que la madre de Chloe era una alcohólica loca.</p>
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-lg-2 col-md-6 align-self-center mt-4 mt-md-0">
+                    <img src="img/mark.jpeg" alt="" class="img-fluid shadow w-100">
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-5 col-md-6 align-self-center order-2 order-md-1 mt-4 mt-md-0">
+                    <img src="img/evelyn.jpeg" alt="" class="img-fluid shadow w-100">
+                </div>
+                <div class="col-lg-5 offset-lg-2 col-md-6 align-self-center order-1 order-md-2 py-5">
+                    <h2 class="special-number">06.</h2>
+                    <div class="dishes-text">
+                        <h3><span>Evelyn</span><br> La Popular</h3>
+                        <p class="pt-3">La más popular de todo el instituto, comenzó haciéndole la vida imposible a Chloe, atacándola por su personalidad frágil y su físico imperfecto, era incapaz de aceptar que Mark estuviera con Chloe. Un día, por un conflicto, la humilló en la cafetería del instituto. Evelyn desveló delante de todo el mundo la ruptura de su relación, el motivo y además por quien la dejó. Esto provocó bajarle la autoestima a Chloe, y lo acompañó junto a ataques de todo el mundo hacia ella por los pasillos. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-5 col-md-6 align-self-center py-5">
+                    <h2 class="special-number">07.</h2>
+                    <div class="dishes-text">
+                        <h3><span>Phillip</span><br> El Psicólogo</h3>
+                        <p class="pt-3">Como todo docente de un centro público, no destacaba entre el personal. Aun así, no se le daba mal su trabajo. Conocía a Chloe, y conocía sus problemas. Él pudo haberla ayudado. </p>
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-lg-2 col-md-6 align-self-center mt-4 mt-md-0">
+                    <img src="img/psych.jpeg" alt="" class="img-fluid shadow w-100">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+	<!-- External JS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+	<script src="vendor/bootstrap/popper.min.js"></script>
+	<script src="vendor/bootstrap/bootstrap.min.js"></script>
+	<script src="vendor/select2/select2.min.js "></script>
+	<script src="vendor/owlcarousel/owl.carousel.min.js"></script>
+	<script src="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js"></script>
+	<script src="vendor/stellar/jquery.stellar.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/js/tempusdominus-bootstrap-4.min.js"></script>
+
+	<!-- Main JS -->
+	<script src="js/app.min.js "></script>
+
+    <h2>Preguntas Frecuentes</h2>
+
+    <button class="accordion">¿Para qué sirve esta página web?</button>
+    <div class="panel">
+      <p> Sirve para promocionar un videojuego y para poder obtener distintos productos de el.</p>
+    </div>
+    
+    <button class="accordion"> ¿Una vez adquirido el juego que debo hacer? </button>
+    <div class="panel">
+      <p> Una vez comprado el juego se le proporcionará una carpeta .zip en la cual viene el juego a descargar y un archivo .txt con los pasos a seguir.</p>
+    </div>
+    
+    <button class="accordion"> ¿Puedo obtener algún producto sin necesidad de pagar? </button>
+    <div class="panel">
+      <p>No se puede</p>
+    </div>
+
+    <button class="accordion"> ¿Cuándo recibiré mis productos? </button>
+    <div class="panel">
+      <p>Las recompensas que se obtengan de forma online (juego, música, imágenes) serán dadas al instante mientras que aquellas que se entreguen a domicilio tendrán un periodo de entre 1 a 2 semanas.</p>
+    </div>
+
+    <button class="accordion"> ¿Qué métodos de pago aceptan? </button>
+    <div class="panel">
+      <p>Aceptamos todo tipos de pagos con tarjetas de crédito</p>
+    </div>
+
+    <button class="accordion"> ¿Puedo devolver mis productos? </button>
+    <div class="panel">
+      <p>Una vez realizada la compra no se podrán devolver los productos a no ser que tengan algún tipo de defecto.</p>
+    </div>
+    
+    <button class="accordion">¿Si quiero un producto, pero viene en un pack con lo que ya compré previamente debo pagar la cantidad de todo? </button>
+    <div class="panel">
+      <p>No, una vez vayas comprando productos se te guardará un historial y si quieres comprar más cosas se te restará lo que gastaste previamente.</p>
+    </div>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+        </script>
+
+<!-- End of contribuciones Section -->		<footer class="mastfoot pb-5 bg-black section-padding pb-0">
+    <div class="inner container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="footer-widget pr-lg-5 pr-0">
+                    <img src="img/logo.png" class="img-fluid footer-logo mb-3" alt="">
+                    <p> ATENCIÓN: Esta página simula la campaña de microfinanciación de un videojuego ficticio y no representa un producto real. Práctica de Multimedia, 1º GDDV - Cuerso 21/22 (Móstoles), URJC. La URJC no se hace responsable del contenido expuesto por el autor</p>
+                    <nav class="nav nav-mastfoot justify-content-start">
+                      <a class="nav-link" href="https://www.youtube.com/channel/UCECpdM_m-szKD_biBL8UyTw">
+                           <i class="fab fa-youtube"></i>
+                       </a>
+                       <a class="nav-link" href="https://twitter.com/HekateGames">
+                           <i class="fab fa-twitter"></i>
+                       </a>
+                       <a class="nav-link" href="https://www.instagram.com/hekategames_official/">
+                           <i class="fab fa-instagram"></i>
+
+                       </a>
+                   </nav>
+                </div>
+                
+            </div>
+            <div class="col-lg-4">
+                <div class="footer-widget pl-lg-5 pl-0">
+                    <br>
+                    <h4>Comunicate con nosotros:</h4>
+                    <p>Abajo podras enviarnos un mensaje plasmandonos cualquier problema, sugerencia etc,     Un Saludo (HekateGames) </p>
+                    <form id="newsletter">
+                       <div class="form-group">
+                           <input type="email" class="form-control" id="emailNewsletter" aria-describedby="emailNewsletter" placeholder="Comunicado">
+                       </div>
+                       <button type="submit" class="btn btn-primary w-100">Enviar</button>
+                       <br><br><br>
+                   </form>
+                </div>
+            </div>
+            <div class="col-md-12 d-flex align-items-center">
+                <p class="mx-auto text-center mb-0">Copyright 2022. Modificado por HekateGames. All Right Reserved. Design by <a href="https://gettemplates.co" target="_blank">GetTemplates</a></p>
+            </div>
+           
+       </div>
+   </div>
+
+</body>
+</html>
