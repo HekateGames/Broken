@@ -170,9 +170,7 @@ a:hover {
 .hero-carousel .owl-item img {
   height: 600px;
   max-width: 100%; }
-  @media (min-width: 992px) {
-    .hero-carousel .owl-item img {
-      height: calc(100vh - 130px); } }
+ 
 
 .thumb-menu img {
   height: 150px;
