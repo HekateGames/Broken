@@ -1,6 +1,4 @@
 /*
- *	Resto by GetTemplates.co
- *	URL: https://gettemplates.co
  */
 html {
   overflow-x: hidden; }
@@ -171,7 +169,7 @@ a:hover {
 
 .hero-carousel .owl-item img {
   height: 600px;
-  object-fit: cover;
+  /*object-fit: cover;*/
   max-width: 100%; }
   @media (min-width: 992px) {
     .hero-carousel .owl-item img {
